@@ -1,47 +1,45 @@
-# New App
+# Online Earning App
 
-New App is a digital marketing application that allows users to create, manage, and analyze marketing campaigns. Users can schedule social media posts, draft email newsletters, and track the performance of their campaigns through an intuitive dashboard.
+The Online Earning App helps users discover and explore various ways to earn money online. Users can generate personalized online earning ideas using AI, view a curated list of opportunities, save their favorite methods, and track their progress over time.
 
 ## User Journeys
 
-### 1. Viewing Dashboard
+### 1. Signing In
 
-1. Users land on the dashboard after opening the app.
-2. The dashboard provides an overview of current campaigns, upcoming scheduled posts, and key performance metrics.
+1. Users visit the app and are prompted to sign in with ZAPT.
+2. Users can sign in using social login providers like Google, Facebook, or Apple.
+3. After signing in, users are redirected to the home page.
 
-### 2. Creating a New Campaign
+### 2. Generating Online Earning Ideas
 
-1. Users click on the "Create Campaign" button from the navigation bar.
-2. They choose the type of campaign:
-   - **Social Media Post**: Compose messages for platforms like Facebook, Twitter, and Instagram.
-   - **Email Newsletter**: Draft emails using a rich text editor.
-3. Users fill in the campaign details:
-   - Enter the campaign name.
-   - Write the message or email content.
-   - Schedule the campaign for a future date and time or send it immediately.
-4. Users review the campaign details and save the campaign.
+1. On the home page, users can enter their skills or interests.
+2. Users click on "Generate Ideas" to receive AI-generated online earning opportunities tailored to their inputs.
+3. Generated ideas are displayed in a list, with brief descriptions.
 
-### 3. Managing Campaigns
+### 3. Viewing Curated Opportunities
 
-1. Users can view a list of all their campaigns in the "Campaigns" section.
-2. Each campaign displays the name, type, status (Scheduled, Active, Completed), and scheduled date.
-3. Users can view campaign details or delete campaigns that haven't been sent yet.
+1. Users can browse a curated list of popular online earning methods.
+2. Each opportunity includes details like description, requirements, and potential earnings.
+3. Users can click on an opportunity to view more details or visit external links.
 
-### 4. Viewing Analytics
+### 4. Saving Favorite Opportunities
 
-1. Users access the "Analytics" section from the navigation bar.
-2. They can view key metrics like engagement rates, reach, and performance over time.
-3. Interactive charts display the metrics for different campaigns.
-4. Users can filter analytics by date range and campaign type.
+1. Users can save opportunities to their favorites list by clicking the "Save" button on each opportunity.
+2. Saved opportunities are accessible from the "Favorites" section.
 
-### 5. Responsive Design
+### 5. Tracking Earnings
 
-- The app is fully responsive and user-friendly on all devices.
+1. Users can log their earnings for each opportunity they engage with.
+2. The app provides a dashboard to track total earnings over time.
+3. Users can view charts and statistics about their earnings.
+
+### 6. Responsive Design
+
+- The app is fully responsive and user-friendly on all devices, ensuring a seamless experience across desktops, tablets, and mobile phones.
 
 ## External APIs Used
 
-- **Social Media APIs**: Used for posting content to social media platforms.
-- **Email Service API**: Used for sending email newsletters.
-- **Analytics API**: Used to retrieve performance data for campaigns.
+- **OpenAI API**: Used for generating personalized online earning ideas using AI.
+  - *Purpose*: To assist users in discovering new and suitable online earning opportunities based on their skills and interests.
 
 **Note**: API keys need to be added to the `.env` file.

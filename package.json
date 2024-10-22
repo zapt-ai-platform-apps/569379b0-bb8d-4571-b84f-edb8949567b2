@@ -1,7 +1,7 @@
 {
-  "name": "new-app",
+  "name": "online-earning-app",
   "version": "1.0.0",
-  "description": "A digital marketing application",
+  "description": "An app to discover online earning opportunities",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,12 +11,18 @@
   "dependencies": {
     "solid-js": "^1.8.22",
     "@solidjs/router": "^0.8.4",
-    "solid-chartjs": "^1.3.11"
+    "@supabase/auth-ui-solid": "^0.3.8",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@zapt/zapt-js": "^1.0.5",
+    "solid-markdown": "^2.0.13",
+    "solid-chartjs": "^1.3.11",
+    "chart.js": "^4.3.3",
+    "axios": "^1.5.0"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.13",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
     "vite": "^5.4.7",
     "vite-plugin-solid": "^2.10.2"
   }
