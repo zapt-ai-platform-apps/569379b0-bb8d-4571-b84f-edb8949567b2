@@ -1,51 +1,47 @@
 # New App
 
-New App is a digital marketing platform that enables users to create, manage, and track digital marketing campaigns. Users can generate marketing content using AI, schedule campaigns, and analyze performance through interactive dashboards.
+New App is a digital marketing application that allows users to create, manage, and analyze marketing campaigns. Users can schedule social media posts, draft email newsletters, and track the performance of their campaigns through an intuitive dashboard.
 
 ## User Journeys
 
-### 1. Signing In
+### 1. Viewing Dashboard
 
-1. Users visit the app and are prompted to sign in with ZAPT.
-2. Users can sign in using social login providers like Google, Facebook, or Apple.
-3. After signing in, users are redirected to the dashboard.
+1. Users land on the dashboard after opening the app.
+2. The dashboard provides an overview of current campaigns, upcoming scheduled posts, and key performance metrics.
 
 ### 2. Creating a New Campaign
 
-1. On the dashboard, users click the "Create Campaign" button.
-2. Users enter campaign details such as name, description, and select marketing channels (e.g., Email, Social Media).
-3. Users can generate marketing content using AI by providing a prompt.
-4. Users review and edit the generated content as needed.
-5. Users schedule the campaign by selecting start and end dates.
-6. Users save the campaign, which then appears in their list of campaigns.
+1. Users click on the "Create Campaign" button from the navigation bar.
+2. They choose the type of campaign:
+   - **Social Media Post**: Compose messages for platforms like Facebook, Twitter, and Instagram.
+   - **Email Newsletter**: Draft emails using a rich text editor.
+3. Users fill in the campaign details:
+   - Enter the campaign name.
+   - Write the message or email content.
+   - Schedule the campaign for a future date and time or send it immediately.
+4. Users review the campaign details and save the campaign.
 
 ### 3. Managing Campaigns
 
-1. Users can view a list of their campaigns on the dashboard.
-2. Users can edit campaign details, content, and schedule.
-3. Users can start, pause, or delete campaigns.
+1. Users can view a list of all their campaigns in the "Campaigns" section.
+2. Each campaign displays the name, type, status (Scheduled, Active, Completed), and scheduled date.
+3. Users can view campaign details or delete campaigns that haven't been sent yet.
 
-### 4. Viewing Campaign Analytics
+### 4. Viewing Analytics
 
-1. Users select a campaign to view detailed analytics.
-2. Analytics include key metrics like reach, engagement, conversions, and more.
-3. Users can view data visualizations such as charts and graphs to analyze performance over time.
+1. Users access the "Analytics" section from the navigation bar.
+2. They can view key metrics like engagement rates, reach, and performance over time.
+3. Interactive charts display the metrics for different campaigns.
+4. Users can filter analytics by date range and campaign type.
 
-### 5. AI-Generated Content
+### 5. Responsive Design
 
-1. Users can generate marketing content by entering prompts into the AI assistant.
-2. The AI provides content suggestions for emails, social media posts, or ads.
-3. Users can accept, edit, or regenerate content suggestions.
-
-### 6. Responsive Design
-
-- The app is fully responsive and user-friendly on all devices, ensuring a seamless experience across desktops, tablets, and mobile phones.
+- The app is fully responsive and user-friendly on all devices.
 
 ## External APIs Used
 
-- **OpenAI API**: Used for generating marketing content using AI.
-  - *Purpose*: To assist users in creating engaging marketing content.
-- **Analytics API**: Used for retrieving campaign performance data.
-  - *Purpose*: To provide users with real-time analytics and insights.
+- **Social Media APIs**: Used for posting content to social media platforms.
+- **Email Service API**: Used for sending email newsletters.
+- **Analytics API**: Used to retrieve performance data for campaigns.
 
 **Note**: API keys need to be added to the `.env` file.
